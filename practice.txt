@@ -2,4 +2,28 @@
 cd ~/Dexcktop
 mkdir gittest
 git init
+vi practice.txt
+git add practice.txt
+git commit -m 'first commit' practice.txt
+初回commit時のcommiterが自動でWinアカウントとなったため修正
+git log #winアカが使われている
+git config --global user.name "Chikin Dev"
+git config --global user.email chikin.dev@gmail.com
+git commit --amend --reset-author
+git log #テスト用赤になっている
 
+
+
+■メモ
+・初回commit時のcommiterが自動でWinアカウントとなった
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
