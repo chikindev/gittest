@@ -1,0 +1,5 @@
+■練習
+cd ~/Dexcktop
+mkdir gittest
+git init
+
