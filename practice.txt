@@ -1,4 +1,4 @@
-■練習
+■初回コミット
 cd ~/Dexcktop
 mkdir gittest
 git init
@@ -12,7 +12,20 @@ git config --global user.email chikin.dev@gmail.com
 git commit --amend --reset-author
 git log #テスト用赤になっている
 
+■github設定
+・リポジトリ作成「gitttest」
 
+■SSH設定
+・クライアント側
+cd /c/Users/$USERNAME/.ssh
+ssh-keygen -t rsa -b 4096 #id_rsa, id_rsa.pubが作成される
+
+・GitHub側
+生成した公開鍵を登録
+
+■github連携
+git remote add origin git@github.com:chikindev/gittest.git
+git push -u origin master
 
 ■メモ
 ・初回commit時のcommiterが自動でWinアカウントとなった
