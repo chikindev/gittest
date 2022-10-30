@@ -35,8 +35,9 @@ git clone git@github.com:chikindev/gittest.git
 ■ロリポ2
 ・ブランチ作成
 git branch b1
-
-
+git checkout b1
+git commit -am 'first commit in b1'
+git log --graph #ログはまだ一直線
 
 ■メモ
 ・初回commit時のcommiterが自動でWinアカウントとなった
