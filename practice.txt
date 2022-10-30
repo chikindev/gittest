@@ -1,6 +1,6 @@
 ■初回コミット
-cd ~/Dexcktop
-mkdir gittest
+cd ~/Desktop
+mkdir gittest; cd $_
 git init
 vi practice.txt
 git add practice.txt
@@ -26,6 +26,11 @@ ssh-keygen -t rsa -b 4096 #id_rsa, id_rsa.pubが作成される
 ■github連携
 git remote add origin git@github.com:chikindev/gittest.git
 git push -u origin master
+
+■cloneテスト
+cd ~/Desktop
+mkdir gitclone; cd $_
+git clone git@github.com:chikindev/gittest.git
 
 ■メモ
 ・初回commit時のcommiterが自動でWinアカウントとなった
