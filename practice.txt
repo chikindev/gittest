@@ -38,6 +38,7 @@ git branch b1
 git checkout b1
 git commit -am 'first commit in b1'
 git log --graph #ログはまだ一直線
+git push -u origin b1
 
 ■メモ
 ・初回commit時のcommiterが自動でWinアカウントとなった
