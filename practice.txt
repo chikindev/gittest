@@ -40,6 +40,10 @@ git commit -am 'first commit in b1'
 git log --graph #ログはまだ一直線
 git push -u origin b1
 
+■icechikensからclone
+git clone https://github.com/chikindev/gittest.git
+git branch #masterのみロリポに作成された
+
 ■メモ
 ・初回commit時のcommiterが自動でWinアカウントとなった
 Your name and email address were configured automatically based
