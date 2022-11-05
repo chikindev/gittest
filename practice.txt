@@ -43,6 +43,9 @@ git push -u origin b1
 ■icechikensからclone
 git clone https://github.com/chikindev/gittest.git
 git branch #masterのみロリポに作成された
+git checkout -b b2
+git add/commit
+git push
 
 ■メモ
 ・初回commit時のcommiterが自動でWinアカウントとなった
